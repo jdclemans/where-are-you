@@ -11,36 +11,56 @@
   </head>
   <body>
     <video autoplay loop muted poster="screenshot.jpg" id="background">
-    <source src="../where-are-you/snow.mp4" type="video/mp4">
+    <source src="../where-are-you/video/snow.mp4" type="video/mp4">
     </video>
-  <a class="close" href="#">
-    <div class="overlay" id="modal">
-      <h3>Seattle</h3>
-      <h4>Just a bit south of Pier 41</h4>
-      <button class="button" style="vertical-align:middle"><span>Onward</span></button>
-
-    </div>
-  </a>
-  <div class="container">
-    <div>
-      <div class="header">
-        <h1>Where are you?</h1>
+    <a class="close" href="#">
+      <div class="overlay" id="modal">
+        <h3>Seattle</h3>
+        <h4>Just a bit south of Pier 41</h4>
+        <button class="button" style="vertical-align:middle"> 
+          <span>Onward</span>
+        </button>
       </div>
-    </div>
-	<div class="questions">
-    <a class="what"  href="#">
-  		<div class="answer" id="a1">
-      <i class="fa fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp; Seattle
+    </a>
+    <div class="container">
+      <div>
+        <div class="header">
+          <h1>Where are you?</h1>
+        </div>
       </div>
-  		<div class="answer" id="a2">
-        <i class="fa fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp; Boise
+      <div class="questions">
+        <ul>
+          <li></li>
+          <button class="button main btn btn-1c" style="vertical-align:top">
+            <i class="fa fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp; Seattle
+          </button>
+          </li>
+          <li>
+          <button class="button main btn btn-1c" style="vertical-align:middle"> 
+              <i class="fa fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp; Boise
+          </button>
+          </li>
+          <li>
+          <button class="button main btn btn-1c" style="vertical-align:bottom"> 
+             <i class="fa fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp; Spokane
+          </button>
+          </li>
+        </ul>
       </div>
-  		<div class="answer" id="a3">
-        <i class="fa fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp; Spokane
-      </div>
+<!--       	<div class="questions">
+          <a class="what"  href="#">
+        <div class="answer" id="a1">
+          <i class="fa fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp; Seattle
+        </div>
+        <div class="answer" id="a2">
+          <i class="fa fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp; Boise
+        </div>
+        <div class="answer" id="a3">
+          <i class="fa fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp; Spokane
+        </div>
       </a>
-	</div>
-  </div>
+    	</div> -->
+      </div>
 
   <script src="https://code.jquery.com/jquery.min.js"></script>
   <script src="js/app.js"></script>

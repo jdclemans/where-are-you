@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
     /*--- Display information box ---*/
-    $(".what").click(function(){
+    $(".button").click(function(){
       $(".overlay").fadeIn(1000);
 
 
