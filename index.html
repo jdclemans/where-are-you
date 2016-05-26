@@ -4,26 +4,52 @@
     <meta charset="utf-8">
     <title>Where are you?</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic' rel='stylebsheet' type='text/css'>	
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   </head>
   <body>
-    <video autoplay loop muted poster="screenshot.jpg" id="background">
-    <source src="../where-are-you/video/snow.mp4" type="video/mp4">
+    <video autoplay loop muted poster="" id="background">
+    <source src="../where-are-you/video/wave.mp4" type="video/mp4">
     </video>
-    <a class="close" href="#">
       <div class="overlay" id="modal">
-        <h3>Seattle</h3>
-        <h4>Just a bit south of Pier 41</h4>
-        <button class="button" style="vertical-align:middle"> 
-          <span>Onward</span>
-        </button>
+          <video autoplay loop muted poster="" id="overlay-background">
+            <source src="../where-are-you/video/wave.mp4" type="video/mp4">
+          </video>
+
+<!--             <div class="icon">
+              <i class="fa fa-arrow-circle-o-right fa-fw" style="color:white;"></i>
+            </div> -->
+            <h5>Correct Answer:
+            <h3 id="correct-answer"></h3>
+            <h4 id="description"></h4>
+
+<!--             <button id="next" class="button" style="vertical-align:middle"> 
+              <span>Onward</span>
+            </button> -->
+            <div class="icon">
+                          <div class="cl-effect-12">
+                            <a class="close" href="#"><i class="fa fa-arrow-right" style="color: white;"></i></a>
+                          </div>
+            </div>
+
+          </div>
+
+   
+      <div class="scoreboard" id="modal">
+        <h3>Nice job.</h3>
+        <h4 class="userScore">You got</h4>
+         <a class="close" href="#">
+          <button id="newGame" class="button" style="vertical-align:middle"> 
+            <span>Try again</span>
+          </button>
+        </a>
       </div>
-    </a>
+
     <div class="container">
-      <div>
+      <div> 
         <div class="header">
           <h1>Where are you?</h1>
         </div>
@@ -31,36 +57,28 @@
       <div class="questions">
         <ul>
           <li></li>
-          <button class="button main btn btn-1c" style="vertical-align:top">
-            <i class="fa fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp; Seattle
+          <button class="button main answer-button" id="answer-button-one"  style="vertical-align:top">
+          <span></span></button>
+          </li>
+          <li>
+          <button class="button main answer-button" id="answer-button-two" style="vertical-align:middle">
           </button>
           </li>
           <li>
-          <button class="button main btn btn-1c" style="vertical-align:middle"> 
-              <i class="fa fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp; Boise
+          <button class="button main answer-button" id="answer-button-three" style="vertical-align:bottom"> 
           </button>
           </li>
-          <li>
-          <button class="button main btn btn-1c" style="vertical-align:bottom"> 
-             <i class="fa fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp; Spokane
-          </button>
-          </li>
+<!--           <li>
+          <button class="btn btn-4 btn-4c icon-arrow-right" style="vertical-align:bottom"> 
+          Stuff</button>
+          </li> -->
         </ul>
+
       </div>
-<!--       	<div class="questions">
-          <a class="what"  href="#">
-        <div class="answer" id="a1">
-          <i class="fa fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp; Seattle
+        <div class="status">
+          <h4 class="stage-count"></h4><h4 class="one">/</h4><h4 class="two">5</h4>
         </div>
-        <div class="answer" id="a2">
-          <i class="fa fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp; Boise
-        </div>
-        <div class="answer" id="a3">
-          <i class="fa fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp; Spokane
-        </div>
-      </a>
-    	</div> -->
-      </div>
+    </div>
 
   <script src="https://code.jquery.com/jquery.min.js"></script>
   <script src="js/app.js"></script>
