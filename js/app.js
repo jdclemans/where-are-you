@@ -1,55 +1,55 @@
   var quiz = [{
     "question": 'Q1',
-    "background": "../where-are-you/video/wave.mp4",
+    "background": "../where-are-you/video/montana.mp4",
     "choices": 
       [
-        "Senegal", 
-        'Orlando', 
-        'San Diego', 
+        "Utah", 
+        'Montana', 
+        'Nevada', 
       ],
-    "correct": 'Senegal',
-    "description": "West Africa"
+    "correct": 'Montana',
+    "description": "Just south of Big Sandy"
 
   },
   {
     "question": 'Q2',
-    "background": "../where-are-you/video/snow.mp4",
+    "background": "../where-are-you/video/ferry.mp4",
     "choices": 
       [
-        "Dusty", 
-        "Othello", 
-        "Spokane", 
+        "Seattle", 
+        "Portland", 
+        "Boston", 
       ],
-    "correct": 'Spokane',
+    "correct": 'Seattle',
     "description": "Washington"
   },
   {
     "question": 'Q3',
-    "background": "../where-are-you/video/flowers.mp4",
+    "background": "../where-are-you/video/sunset.mp4",
     "choices": 
       [
-        "Kent", 
-        "Santa Cruz", 
-        "Ann Arbor", 
+        "The Pudget Sound", 
+        "The Bay Area", 
+        "Gibraltar", 
       ],
-    "correct": 'Santa Cruz',
-    "description": "California"
+    "correct": 'Pudget Sound',
+    "description": "Washington"
   },
   {
     "question": 'Q4',
-    "background": "../where-are-you/video/snow.mp4",
+    "background": "../where-are-you/video/Poverty-Bay.mp4",
     "choices": 
       [
-        "Billings", 
-        "Havre", 
-        "Great Falls", 
+        "Poverty Bay", 
+        "Ireland", 
+        "Portland", 
       ],
-    "correct": 'Havre',
-    "description": "Montana"
+    "correct": 'Poverty Bay',
+    "description": "Washington"
   },
   {
     "question": 'Q5',
-    "background": "../where-are-you/video/wave.mp4",
+    "background": "../where-are-you/video/ravine.mp4",
     "choices": 
       [
         "Des Moines", 
