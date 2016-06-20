@@ -1,0 +1,46 @@
+<div class="row">
+  <div class="one-third first text-center block">
+
+    <img class="circle" src="http://conference.economicmodeling.com/wp-content/uploads/2016/06/Anne_Kress.jpg" alt="">
+    <h5>Anne Kress</h5>     
+    <p>President <br>
+    Monroe Community College</p>
+
+  </div>
+  <div class="one-third text-center block">
+
+
+    <img class="circle" src="http://conference.economicmodeling.com/wp-content/uploads/2014/03/griggsdavidgreatermsp-500.jpg" alt="">
+    <h5>David Griggs</h5> 
+    <p>Vice President, Business Investment and Research<br>
+    Greater MSP</p>
+  </div>
+  <div class="one-third text-center block">
+    <img class="circle" src="http://conference.economicmodeling.com/wp-content/uploads/2016/06/BridgetBrown.png" alt="">
+    <h5>Bridget Brown</h5>
+    <p>Executive Director <br>
+    National Association of Workforce Development Professionals</p>
+  </div>
+  </div>
+
+<div class="row">
+  <div class="one-third first text-center block">
+
+    <img class="circle" src="http://conference.economicmodeling.com/wp-content/uploads/2014/03/Mark-Hanson.jpg" alt="">
+    <h5>Chad Shearer</h5>     
+    <p>Economic Analyst and Project Manager<br>
+    Brookings Institution</p>
+  </div>
+  <div class="one-third text-center block">
+    <img class="circle" src="http://conference.economicmodeling.com/wp-content/uploads/2014/03/JacobHegman.jpg" alt="">
+    <h5>Jacob Hegman</h5>
+    <p>Sr. Reporting Analyst<br>
+    CB UnitedHealth Group</p>
+  </div>
+  <div class="one-third text-center block">
+    <img class="circle" src="http://conference.economicmodeling.com/wp-content/uploads/2014/03/Mark-Hanson.jpg" alt="">
+    <h5>Mark Hanson</h5> 
+    <p>Human Capital Consultant <br>
+    CB UnitedHealth Group</p>
+  </div>
+</div>
